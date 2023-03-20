@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 150vh;
-    background: url("img/medical.jpg") no-repeat;
+    min-height: 100vh;
+    background: url("https://img.freepik.com/free-photo/doctor-reading-coronavirus-patient-medical-chart_53876-139569.jpg?w=2000&t=st=1679082357~exp=1679082957~hmac=88f129d7505204ad606d4af122ddf2a32e64149da9790837cb8ebdb0103dc53a") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ header{
     left: 0;
     width: 100%;
     height: 100px;
-    background: black;
+    background: aliceblue;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ header{
 }
 
 .logo{
-    width: 15%;
+    width: 13%;
     user-select: none;
 }
 .logo2{
@@ -85,7 +85,7 @@ header{
 }
 
 .btn-Login-popup:hover{
-    background: black;
+    background: #408080;
     color: aliceblue;
 
 }
@@ -94,10 +94,10 @@ header{
     position: relative;
     width: 400px;
     height: 440px;
-    background: black;
+    background: aliceblue;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    /* backdrop-filter: blur(20px); */
+    backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@ header{
     height: 45px;
     background: #408080;
     font-size: 2em;
-    color: black;
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +242,7 @@ header{
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
-    color: black;
+    color: aliceblue;
     font-weight: 500;
 }
 
